@@ -1,0 +1,74 @@
+html, body {
+    font-family: 'Trebuchet MS';
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+.navheader {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.navheader ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.navheader ul li {
+    padding: 30px;
+}
+
+.navheader ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* HEADER */
+
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.connections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.socials {
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* FOOTER */
+
+
+/* HOME CONTENT */
+#greeting {
+    text-align: center;
+}
+
+#connect {
+    padding-top: 10px;
+    margin: 0;
+}
+/* HOME CONTENT */
+
